@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Cine - FULLMOVIE</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: linear-gradient(to right, #000000, #1c1c1c);
+            color: white;
+            text-align: center;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        header {
+            padding: 30px 20px;
+            background: #111;
+            border-bottom: 3px solid #ff0000;
+        }
+
+        h1 {
+            margin: 0;
+            font-size: 3em;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            color: #ff4444;
+            text-shadow: 2px 2px 8px rgba(255,0,0,0.6);
+        }
+
+        h2 {
+            margin-top: 10px;
+            font-weight: 400;
+            color: #ddd;
+        }
+
+        .categorias {
+            margin-top: 40px;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 40px;
+        }
+
+        .categoria {
+            text-align: center;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .categoria h3 {
+            margin-bottom: 15px;
+            font-size: 1.5em;
+            color: #ffdddd;
+        }
+
+        .categoria a {
+            text-decoration: none;
+            color: inherit;
+        }
+
+        .categoria img {
+            width: 250px;
+            height: 350px;
+            border-radius: 15px;
+            border: 3px solid #fff;
+            transition: transform 0.4s ease, box-shadow 0.4s ease;
+        }
+
+        .categoria img:hover {
+            transform: scale(1.08);
+            box-shadow: 0px 10px 25px rgba(255,0,0,0.6);
+        }
+
+        footer {
+            margin-top: 50px;
+            padding: 15px;
+            background: #111;
+            font-size: 0.9em;
+            color: #bbb;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Fullmovies</h1>
+        
+    </header>
+    <br>
+    <h2>Elige una categoría</h2>
+
+    <section class="categorias">
+
+        <div class="categoria">
+            <h3>Terror</h3>
+            <a href="terror.html">
+                <img src="https://th.bing.com/th/id/R.365e5a06a0bf7aaade09031a15c2f7a4?rik=qVwNMYZ1bN1jAg&pid=ImgRaw&r=0" alt="Categoría Terror">
+            </a>
+        </div>
+
+        
+        <div class="categoria">
+            <h3>Comedia</h3>
+            <a href="comedia.html">
+                <img src="https://th.bing.com/th/id/R.24f465b00dbe4037aa269acadb304c64?rik=R0uVY39%2fCyXd0Q&pid=ImgRaw&r=0" alt="Categoría Comedia">
+            </a>
+        </div>
+
+       
+        <div class="categoria">
+            <h3>Acción</h3>
+            <a href="accion.html">
+                <img src="https://th.bing.com/th/id/R.91927248c6bee18e74f37511ee2b6651?rik=WfAddh%2bWrR%2bM3w&riu=http%3a%2f%2fwww.mubis.es%2fmedia%2fusers%2f3724%2f191132%2fDM1Pyp5XkAEOhEM-original.jpg&ehk=KzY2gEG3DDTcHTB%2fzOEBdVvLL6tTkx6I2DIUpSTQNx4%3d&risl=&pid=ImgRaw&r=0" alt="Categoría Acción">
+            </a>
+        </div>
+    </section>
+
+    <footer>
+        © 2025 Fullmovies - Todos los derechos reservados
+    </footer>
+</body>
+</html>
